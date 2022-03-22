@@ -1,0 +1,138 @@
+body {
+    background-color: indianred;
+}
+
+img {
+    height: 700px;
+    width: 1900px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#h1 {
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+
+    font-family: "Courier New", Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+.button {
+    background-color: maroon;
+    border: 2px, solid, white;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 125px;
+    margin-right: auto;
+    width: 10%;
+    border-radius: 12px;
+  }
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.button2 {
+    background-color: maroon;
+    border: 2px, solid, white;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 12px;
+  }
+
+.button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: static;
+    transition: 0.5s;
+  }
+  
+  .button2 span:after {
+    content: '\00bb';
+    position: relative;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button2:hover span {
+    padding-right: 25px;
+  }
+  
+  .button2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .disabled {
+    background-color: maroon;
+    border: 2px, solid, white;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 125px;
+    margin-right: auto;
+    width: 10%;
+    border-radius: 12px;
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  .disabled2 {
+    background-color: maroon;
+    border: 2px, solid, white;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    border-radius: 12px;
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  
